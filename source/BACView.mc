@@ -91,9 +91,9 @@ class BACView extends WatchUi.View {
         	var dt = now.subtract(moment).value();
         	var hours = dt / 3600.0; // seconds per hour, as float to force fractional hours
         	if (gender == UserProfile.GENDER_FEMALE) {
-        		c = (perDrink - (0.017 * hours)) * 10;
+        		c = (perDrink - (0.017 * hours));
         	} else { // male
-        		c = (perDrink - (0.015 * hours)) * 10;
+        		c = (perDrink - (0.015 * hours));
         	}
         	if (c > 0) {
         		bac += c;
