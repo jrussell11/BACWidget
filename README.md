@@ -1,5 +1,5 @@
 # BACWidget
-Widget for Garmin watches to record alcohol consumption and estimate blood alcohol content. The estimate is based on (the Widmark formula)[https://en.wikipedia.org/wiki/Blood_alcohol_content#Estimation_by_intake] using the user's configured weight and gender. Records are discarded after 24 hours, so this isn't approprite for tracking your multi-day binges. 
+Widget for Garmin watches to record alcohol consumption and estimate blood alcohol content. The estimate is based on [the Widmark formula](https://en.wikipedia.org/wiki/Blood_alcohol_content#Estimation_by_intake) using the user's configured weight and gender. Records are discarded after 24 hours, so this isn't approprite for tracking your multi-day binges. 
 
 # Usage
 Viewing the widget will estimate BAC based on already-entered data. 
